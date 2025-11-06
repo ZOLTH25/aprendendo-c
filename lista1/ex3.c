@@ -3,26 +3,29 @@
 #include <stdbool.h>
 
 int anoDeNascimento() {
-    int ano;
+    int a;
     printf("Digite o ano em que voce nasceu: ");
-    scanf("%d", &n);
-    return n;
+    scanf("%d", &a);
+    return a;
 }
- void verificaQualNumeroMaior(int n1, int n2) {
-    if(n1>n2){
-        printf("O numero %d e maior", n1);
-    } else if (n1==n2){
-        printf("Os numeros possuem o mesmo valor");
-    } else {
-        printf("O numero %d e maior", n2);
-    }
+int anoAtual(){
+    int a;
+    printf("Digite o ano atual: ");
+    scanf("%d", &a);
+    return a;
+}
+ int verificaSuaIdade(int a, int b) {
+    int idade;
+    idade = b-a;
+    return idade;
+
 }
 
 int main() {
     int a;
     int b;
-    a = chamarNumero();
-    b = chamarNumero();
-    verificaQualNumeroMaior(a, b);  
+    a = anoDeNascimento();
+    b = anoAtual();
+    printf("sua idade e :  %d ", verificaSuaIdade(a, b));  
     return 0;
 }
