@@ -1,0 +1,1 @@
+//Crie um programa que solicite o peso (em kg) e a altura (em metros) de uma pessoa. Calcule o IMC usando a fórmula: IMC=peso/(altura∗altura). Com base no resultado, exiba a categoria correspondente:
