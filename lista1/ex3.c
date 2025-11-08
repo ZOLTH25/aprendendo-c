@@ -26,6 +26,13 @@ int main() {
     int b;
     a = anoDeNascimento();
     b = anoAtual();
-    printf("sua idade e :  %d ", verificaSuaIdade(a, b));  
+    printf("sua idade e :  %d ", verificaSuaIdade(a, b));
+    
+    if(verificaSuaIdade(a, b)>= 16){
+        prinft("voce pode votar.");
+    }else{
+        printf("voce nao pode votar.");
+    }
     return 0;
+
 }

@@ -1,13 +1,6 @@
 //Simule um caixa eletrônico. Peça ao usuário para inserir um valor de saque (inteiro). O programa deve informar quantas notas de 
 // R100,R50, R20,R10, R5,R2 e R$1 são necessárias para compor o valor do saque, priorizando sempre as notas de maior valor.
-//82. 1: 50   1:20 1:10 e 1:2
-//82/100 .  0     82         82/50      1  32             32/20     1   12      12/10   1   2    2/2   1   0    
-//     int resto50;
-//    int resto20;
-//    int resto10;
- //   int resto5;
- //   int resto2;
- //   int resto1;
+
 #include <stdio.h>
 #include <stdbool.h>
 
